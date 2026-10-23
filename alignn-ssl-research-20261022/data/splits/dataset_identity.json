@@ -1,0 +1,10 @@
+{
+  "manifest_sha256": "4dc85d704841a63945aaec986c2057bb23ad44e8cea1f2178d9e08ff90e39714",
+  "targets_sha256": "d17e2874c186a9d92ec4645292cf25e7d685cea2ef22b1fa1ac26ea8e062ba50",
+  "target": "formation_energy_peratom",
+  "unit": "eV/atom",
+  "size": 10000,
+  "seed": 123,
+  "structures_included": false,
+  "labels_included": false
+}

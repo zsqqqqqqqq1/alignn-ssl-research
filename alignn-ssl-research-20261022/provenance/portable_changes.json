@@ -1,0 +1,32 @@
+{
+  "changed_files": [
+    "run.py",
+    "run_formal.py",
+    "run_formal_wsl.sh",
+    "ssl_alignn/__init__.py"
+  ],
+  "unchanged_scientific_core": [
+    "ssl_alignn/model.py",
+    "ssl_alignn/runner.py",
+    "ssl_alignn/data.py",
+    "ssl_alignn/labels.py",
+    "ssl_alignn/state.py",
+    "ssl_alignn/report.py"
+  ],
+  "changes": "Bundled upstream discovery, explicit source/split/data paths, isolated default outputs, strict fixed-dataset checks, environment-neutral shell launcher.",
+  "existing_local_checkpoint_compatibility": "Do not resume old live experiment checkpoints with this portable source: launcher and __init__ fingerprints intentionally differ.",
+  "release_revision": "supervised-switch",
+  "supervised_switch": "self_supervised in the selected configs/formal_*.json; false derives original ALIGNN supervised settings from the same configuration",
+  "switch_revision_files": [
+    "experiment_options.py",
+    "run_formal_display.py",
+    "supervised_model.py",
+    "supervised_runner.py",
+    "supervised_run.py",
+    "audit_alignn_call.py",
+    "tests/test_supervised_switch.py",
+    "configs/formal_learnable.json",
+    "configs/formal_zero.json",
+    "configs/formal_zero_direct.json"
+  ]
+}

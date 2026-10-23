@@ -1,0 +1,36 @@
+{
+  "eval_max_abs_output_difference": 0.0,
+  "eval_max_abs_gradient_difference": 0.0,
+  "eval_parameters_without_gradient_in_both": [
+    "alignn_layers.3.edge_update.bn_edges.weight",
+    "alignn_layers.3.edge_update.bn_edges.bias",
+    "gcn_layers.3.bn_edges.weight",
+    "gcn_layers.3.bn_edges.bias"
+  ],
+  "train_max_abs_output_difference": 0.0,
+  "train_max_abs_gradient_difference": 0.0,
+  "train_parameters_without_gradient_in_both": [
+    "alignn_layers.3.edge_update.bn_edges.weight",
+    "alignn_layers.3.edge_update.bn_edges.bias",
+    "gcn_layers.3.bn_edges.weight",
+    "gcn_layers.3.bn_edges.bias"
+  ],
+  "max_abs_weight_difference_after_adamw": 0.0,
+  "parameters": 4026753,
+  "all_parameters_trainable": true,
+  "geometry_equal": true,
+  "passed": true,
+  "materials": [
+    "POSCAR-JVASP-25390.vasp",
+    "POSCAR-JVASP-52251.vasp",
+    "POSCAR-JVASP-112039.vasp",
+    "POSCAR-JVASP-18415.vasp"
+  ],
+  "model_config": {
+    "dim": 256,
+    "embedding_features": 64,
+    "alignn_layers": 4,
+    "gcn_layers": 4
+  },
+  "scope": "Unmasked forward, all parameter gradients, one AdamW update; not a 300-epoch equivalence claim."
+}

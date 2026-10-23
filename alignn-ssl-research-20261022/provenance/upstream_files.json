@@ -1,0 +1,16 @@
+{
+  "project": "NIST ALIGNN",
+  "upstream_url": "https://github.com/usnistgov/alignn",
+  "local_setup_version": "2025.4.1",
+  "upstream_commit": null,
+  "note": "Exact files copied from the local original source; no Git commit metadata available. This is a runtime subset, not the complete upstream repository.",
+  "files": {
+    "alignn/__init__.py": "981c97df03f33e35c1c516eb5f7442357b71d27f169115e8a2b3db16127c1ea4",
+    "alignn/graphs.py": "81bf47baa9035f91dd058e102b16bd9415147edc2d952c1a861f72305fbe01b8",
+    "alignn/utils.py": "bb760730f3c2368e8594c1a82677047c553977c873534bc9f5a89ba37828313c",
+    "alignn/models/__init__.py": "11ef6a9ee5a85b091e46123e519dad992d7bb06becdf7ea8ec139dd16eac7716",
+    "alignn/models/utils.py": "bbc4ff335678827961f2ed8099fdd897c4d15646f9495e62a124a37010bd6bdf",
+    "alignn/models/alignn_atomwise.py": "1b443bb764391b1ba9bb9866c024d898de6bc31b847997cbd9fb58709471825e",
+    "LICENSE.rst": "83c519e315a2da6c78aa822989e896358a870ebb51246b3049f671eb84b6f16e"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 123,
+  "cpu_threads": 4,
+  "checkpoint_every_steps": 10,
+  "gradient_clip": 5.0,
+  "graph": {"cutoff": 8.0, "cutoff_extra": 3.0, "max_neighbors": 12},
+  "model": {"dim": 64, "alignn_layers": 4, "gcn_layers": 4},
+  "pretrain": {
+    "mask_kind": "zero", "node_ratio": 0.15, "edge_ratio": 0.15,
+    "loss_weights": [1.0, 1.0, 1.0], "epochs": 10, "batch_size": 16,
+    "lr": 0.001, "weight_decay": 0.00001, "warmup_fraction": 0.3
+  },
+  "downstream": {
+    "epochs": 10, "batch_size": 16,
+    "lr": 0.001, "weight_decay": 0.00001, "warmup_fraction": 0.3
+  }
+}

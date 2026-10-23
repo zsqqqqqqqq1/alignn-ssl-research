@@ -1,0 +1,24 @@
+{
+  "self_supervised": true,
+  "seed": 123,
+  "cpu_threads": 4,
+  "checkpoint_every_steps": 1,
+  "gradient_clip": null,
+  "group_decay": true,
+  "progress": true,
+  "num_workers": 4,
+  "pin_memory": true,
+  "use_lmdb": true,
+  "graph": {"cutoff": 8.0, "cutoff_extra": 3.0, "max_neighbors": 12},
+  "model": {"dim": 256, "z_dim": 64, "embedding_features": 64, "alignn_layers": 4, "gcn_layers": 4},
+  "pretrain": {
+    "mask_kind": "learnable", "node_ratio": 0.15, "edge_ratio": 0.15,
+    "loss_weights": [1.0, 1.0, 1.0], "epochs": 300,
+    "batch_size": 64, "microbatch_size": 32,
+    "lr": 0.001, "weight_decay": 0.00001, "warmup_fraction": 0.3
+  },
+  "downstream": {
+    "epochs": 300, "batch_size": 64, "microbatch_size": 32,
+    "lr": 0.001, "weight_decay": 0.00001, "warmup_fraction": 0.3
+  }
+}
